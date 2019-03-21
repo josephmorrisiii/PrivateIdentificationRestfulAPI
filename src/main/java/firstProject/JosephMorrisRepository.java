@@ -1,15 +1,21 @@
 package firstProject;
 
+import org.springframework.stereotype.Component;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+
+@Component
 public class JosephMorrisRepository {
 
     private List<JosephMorrisFacts> facts = new ArrayList<>();
 
+
+
     public JosephMorrisRepository(){
-        facts.add(createFact("Joseph Morris","Undisclosed", "Black",25));
+        facts.add(createFact("Joseph Morris","Undisclosed", "Black",60000));
     }
 
 
